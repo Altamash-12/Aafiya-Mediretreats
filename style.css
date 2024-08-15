@@ -2,10 +2,6 @@
   margin: 0;
   padding: 0;
 }
-/* 
-.options {
-  display: none;
-} */
 
 html {
   font-size: 62.5%;
@@ -86,6 +82,10 @@ span {
   color: #868e96;
 }
 
+.flag-1{
+  background-image: url(img/flag.jpeg);
+}
+
 /* ***************** */
 /* header */
 /* ***************** */
@@ -133,6 +133,17 @@ span {
 .btn::placeholder {
   font-size: 1.5rem;
   color: #fff;
+}
+
+.res-dot, .close-icon{
+  font-size: 30px;
+  display: none;  
+  color: #fff;
+}
+
+.nav .nav-res-style{
+  height: 100vh;
+  flex-direction: column;
 }
 
 /* ************ */
@@ -410,7 +421,7 @@ span {
 }
 
 .storie-img {
-  margin-bottom: 2rem;
+  width: 100%;
 }
 
 .dot {
@@ -596,6 +607,7 @@ input::placeholder {
 .img-parent {
   height: 30rem;
   width: 35rem;
+  margin-bottom: 2rem;
 }
 
 .img-parent img {

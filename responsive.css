@@ -16,7 +16,8 @@
   }
 
   .unordered-list {
-    padding-right: 3rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 
   .hospital-images {
@@ -88,6 +89,17 @@
   }
 }
 
+/* 768px (Responding to Tablet) */
+@media (max-width: 48em) {
+  .farhan{
+    display: none;
+  }
+
+  .res-dot{
+    display: block;
+  }
+}
+
 /* Below 544px  */
 @media (max-width: 34em) {
   .hero-section {
@@ -98,5 +110,13 @@
   .treatment-box {
     display: flex;
     flex-direction: column;
+  }
+
+  .laptop, .call-icon,.mail-icon{
+    font-size: 2rem;
+  }
+
+  .aafiya-logo{
+    display: none;
   }
 }
